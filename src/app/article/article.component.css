@@ -7,6 +7,7 @@ article {
   border-radius: 1em;
   padding: 1.5rem;
   margin: 2vw;
+  background-color: lightgrey;
 }
 button {
   color: white;
