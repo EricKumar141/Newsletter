@@ -1,0 +1,8 @@
+<h1 style="color:{{ currColor }};">Lorem ipsum</h1>
+<div class="news-container">
+  <app-article
+    *ngFor="let article of articleList"
+    [articles]="article"
+    (newColor)="setColor($event)"
+  ></app-article>
+</div>

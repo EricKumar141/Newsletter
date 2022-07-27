@@ -1,0 +1,19 @@
+article {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  justify-content: space-between;
+  border-radius: 1em;
+  padding: 1.5rem;
+  margin: 2vw;
+}
+button {
+  color: white;
+  padding: 0.5rem;
+  border-radius: 1em;
+  border: 1em;
+  width: 6em;
+}
+button:hover {
+  transform: translateY(+0.15em);
+}

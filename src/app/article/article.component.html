@@ -1,0 +1,11 @@
+<article
+  [ngStyle]="{
+    border: clicked ? '2px solid ' + articles.color : 'none'
+  }"
+>
+  <h2>{{ articles.title }}</h2>
+  <p>{{ articles.content }}</p>
+  <button (click)="changeColor()" style="background-color:{{ articles.color }}">
+    Set {{ articles.color }}
+  </button>
+</article>
